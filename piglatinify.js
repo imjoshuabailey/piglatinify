@@ -1,7 +1,9 @@
+
 function piglatin(english) {
+	const vowels = ["a", "e", "i", "o", "u"];
+
 	var words = english.split(" ");
 	console.log(words);
-	var vowels = "a, e, i, o, u";
 	var changedWords = [];
 
 	var result = words.map(function(word) {
